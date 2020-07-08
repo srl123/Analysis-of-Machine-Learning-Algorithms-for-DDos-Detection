@@ -1,5 +1,10 @@
 # Analysis-of-Machine-Learning-Algorithms-for-DDos-Detection
+
 Used different types of machine learning classifiers such as Passive Aggressive, Extra Trees, Dummy Classifier to detect the DDos attack and compared the accuracies of the classifiers to deterimine the best out of the three. 
+I have taken the dataset from this website: 
+
+https://sites.google.com/view/cloudddoddataset/home
+
 Algorithm Description:
 
 # 1. Passive Aggressive Classifier:
@@ -50,3 +55,5 @@ Below are a few strategies used by the dummy classifier to predict a class label
 Parameters:
 
 class sklearn.dummy.DummyClassifier(*, strategy='warn', random_state=None, constant=None)
+
+
