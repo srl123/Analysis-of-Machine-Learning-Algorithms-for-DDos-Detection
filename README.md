@@ -1,6 +1,6 @@
 # Analysis-of-Machine-Learning-Algorithms-for-DDos-Detection
 
-Used different types of machine learning classifiers such as Passive Aggressive, Extra Trees, Dummy Classifier to detect the DDos attack and compared the accuracies of the classifiers to deterimine the best out of the three. 
+Used different types of machine learning classifiers such as Passive Aggressive, Extra Trees, Dummy Classifier to detect the DDos attack and compared the accuracies of the classifiers by changing the parameters to determine the best out of the three. 
 I have taken the dataset from this website: 
 
 https://sites.google.com/view/cloudddoddataset/home
