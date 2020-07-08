@@ -13,7 +13,7 @@ Algorithm Description:
 
 •	The idea is very simple and their performance has been proofed to be superior to many other alternative methods like Online Perceptron and MIRA.
 
-Parameters:
+# Parameters:
 
 class sklearn.linear_model.PassiveAggressiveClassifier(*, C=1.0, fit_intercept=True, max_iter=1000, tol=0.001, early_stopping=False, validation_fraction=0.1, n_iter_no_change=5, shuffle=True, verbose=0, loss='hinge', n_jobs=None, random_state=None, warm_start=False, class_weight=None, average=False)
 
@@ -29,7 +29,7 @@ class sklearn.linear_model.PassiveAggressiveClassifier(*, C=1.0, fit_intercept=T
 
 •	This random sample of features leads to the creation of multiple de-correlated decision trees.
 
-Parameters:
+# Parameters:
 
 class sklearn.ensemble.ExtraTreesClassifier(n_estimators=100, *, criterion='gini', max_depth=None, min_samples_split=2, min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features='auto', max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, bootstrap=False, oob_score=False, n_jobs=None, random_state=None, verbose=0, warm_start=False, class_weight=None, ccp_alpha=0.0, max_samples=None)
 
@@ -52,7 +52,7 @@ Below are a few strategies used by the dummy classifier to predict a class label
 
 4.	Constant: The classifier always predicts a constant label and is primarily used when classifying non-majority class labels.
 
-Parameters:
+# Parameters:
 
 class sklearn.dummy.DummyClassifier(*, strategy='warn', random_state=None, constant=None)
 
